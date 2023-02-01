@@ -117,7 +117,10 @@ class RouteController
             }
             }
                 exit();
-
+          $a = 5;
+            if ($a++){
+              echo 'test';
+          }
         }else{
 
             try {
